@@ -1,84 +1,78 @@
 body {
-    font-family: "Barlow", serif;
+  font-family: "Barlow", serif;
   font-weight: 600;
   font-style: normal;
-    background-color: #EDF8F9;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }  
+  background-color: #edf8f9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 nav {
-    background-color: white;
-    max-width: 1200px;
-    padding: 20px;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
     height: 40px;
+  }
+
+  ul {
     display: flex;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    gap: 1.25rem;
 
-   
-
-    ul  {
-        display: flex;
-        flex-direction: row;
-        gap: 1.25rem;
-
-        a{
-            text-decoration: none;
-            color: black;
-        }
+    a {
+      text-decoration: none;
+      color: black;
     }
-
-    
+  }
 }
 
 .hero {
-
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .col-1 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-    gap: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
 }
 
 main {
-    padding: 12px;
-    
+  padding: 12px;
 }
 
 .judulpembuka {
-    padding: 12px;
+  padding: 12px;
 }
-.isipembuka{
-    width: fit-content;
+.isipembuka {
+  width: fit-content;
 }
 
 .card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  .card {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 20px;
-  
-    .card {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-  
-      img {
-        width: 100%;
-      }
+
+    img {
+      width: 100%;
     }
   }
+}
