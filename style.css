@@ -2,8 +2,8 @@ body {
   font-family: "Barlow", serif;
   font-weight: 600;
   font-style: normal;
-  background-color: #edf8f9;
-
+  
+  color: #2E5070;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@ body {
 
 
 nav {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   padding: 20px;
 
@@ -30,7 +30,7 @@ nav {
 
     a {
       text-decoration: none;
-      color: black;
+      color: #2E5070;
     }
   }
 }
@@ -39,6 +39,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #EDF8F9;
 }
 
 .col-1 {
@@ -66,14 +67,96 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  padding-bottom: 20px;
 
   .card {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #FFFFFF;
+    color: #2E5070;
+    
+    text-align: left;
+      justify-content: left;
+      border-radius: 44px;
+    
+    h2{
+      font-size: 32px;
+      align-self: start;
+      text-align: left;
+    }
+
+    }
+     
+    div {
+      background-color: #95BB6F;
+      color: #FFFFFF;
+      border-radius: 10px;
+      align-items: center;
+      display: flex;
+      padding: 24px;
+      gap: 10px;
+
+    }
 
     img {
       width: 100%;
+      height: 326px;
+      border-radius: 40px;
+
     }
   }
-}
+
+  .layanan {
+    background-color: #C6EAE3;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+      font-size: 64px;
+    }
+  }
+
+  .about {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    
+    
+
+    h2 {
+      font-size: 64px;
+    }
+  }
+
+  .catpaw {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doctor-1 {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+
+      .foto-doctor {
+        
+      }
+
+    
+      
+    
+  }
+
+  .isi
+
+
+
