@@ -2,16 +2,15 @@ body {
   font-family: "Barlow", serif;
   font-weight: 600;
   font-style: normal;
-  
-  color: #2E5070;
+
+  color: #2e5070;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
 nav {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   padding: 20px;
 
@@ -30,7 +29,7 @@ nav {
 
     a {
       text-decoration: none;
-      color: #2E5070;
+      color: #2e5070;
     }
   }
 }
@@ -39,7 +38,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #EDF8F9;
+  background-color: #edf8f9;
 }
 
 .col-1 {
@@ -73,90 +72,178 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: #FFFFFF;
-    color: #2E5070;
-    
+    background-color: #ffffff;
+    color: #2e5070;
+
     text-align: left;
-      justify-content: left;
-      border-radius: 44px;
-    
-    h2{
+    justify-content: left;
+    border-radius: 44px;
+
+    h2 {
       font-size: 32px;
       align-self: start;
       text-align: left;
     }
+  }
 
-    }
-     
-    div {
-      background-color: #95BB6F;
-      color: #FFFFFF;
-      border-radius: 10px;
-      align-items: center;
-      display: flex;
-      padding: 24px;
-      gap: 10px;
+  div {
+    background-color: #95bb6f;
+    color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: 24px;
+    gap: 10px;
+  }
 
-    }
+  img {
+    width: 100%;
+    height: 326px;
+    border-radius: 40px;
+  }
+}
+
+.layanan {
+  background-color: #c6eae3;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  h1 {
+    font-size: 64px;
+  }
+}
+
+.about {
+  padding-top: 30px;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  padding-bottom: 30px;
+
+  h2 {
+    font-size: 64px;
+  }
+}
+
+.catpaw {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-1 {
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+
+  font-size: 20px;
+
+  .foto-doctor {
+    border-radius: 16px;
+    min-width: 500px;
 
     img {
       width: 100%;
-      height: 326px;
-      border-radius: 40px;
-
     }
   }
+}
 
-  .layanan {
-    background-color: #C6EAE3;
-    font-size: 20px;
-    justify-content: center;
-    text-align: center;
+.doctor-2 {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0px;
+  gap: 40px;
+  align-items: center;
 
-    h1{
-      font-size: 64px;
+  font-size: 20px;
+
+  .photo-doctor {
+    border-radius: 16px;
+    min-width: 500px;
+
+    img {
+      width: 100%;
     }
   }
+}
 
-  .about {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-    position: relative;
-    font-size: 20px;
-    
-    
+.lokasi {
+  background-image: url(/kucing-dalam-kotak.png);
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
-    h2 {
-      font-size: 64px;
-    }
+.testimonial {
+  padding-top: 30px;
+  background-color: #c6eae3;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 30px;
+
+  border-radius: 10px;
+
+  .tes {
+    font-size: 64px;
   }
 
-  .catpaw {
-    padding: 40px;
+  .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: #ffffff;
+    border-radius: 18px;
+    width: 100%;
+
+    text-align: left;
   }
 
-  .doctor-1 {
-      display: flex;
-      max-width: 1200px;
-      margin: 0 auto;
-      align-items: center;
-      position: relative;
-
-      .foto-doctor {
-        
-      }
-
-    
-      
-    
+  h1 {
+    padding: 20px 20px;
   }
 
-  .isi
+  img {
+    margin-right: auto;
+    height: 31.15px;
+    width: 40px;
+  }
+}
 
+footer {
+  background-image: url(paw-pattern\ 1.png);
+  background-color: #2e5070;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
 
+  padding-top: 380px;
 
+  padding: 40px 80px;
+
+  .paw-2 {
+    color: #b7ebe4;
+  }
+}
+
+ul {
+  color: #b7ebe4;
+}
+
+.footer {
+  display: flex;
+  gap: 50px;
+}
