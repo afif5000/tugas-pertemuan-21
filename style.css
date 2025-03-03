@@ -86,11 +86,22 @@ main {
     }
   }
 
-  div {
+  .btn {
+    display: flex;
     background-color: #95bb6f;
     color: #ffffff;
     border-radius: 10px;
+    border: none;
+    height: 36px;
+    font-size: 24px;
     align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+    gap: 10px;
+  }
+
+  div {
     display: flex;
     padding: 24px;
     gap: 10px;
@@ -204,6 +215,7 @@ main {
   .card {
     display: flex;
     flex-direction: column;
+    align-items: start;
     background-color: #ffffff;
     border-radius: 18px;
     width: 100%;
@@ -225,25 +237,85 @@ main {
 footer {
   background-image: url(paw-pattern\ 1.png);
   background-color: #2e5070;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.logo h2 {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
   align-items: center;
-  z-index: 0;
-
-  padding-top: 380px;
-
-  padding: 40px 80px;
-
-  .paw-2 {
-    color: #b7ebe4;
-  }
 }
 
-ul {
-  color: #b7ebe4;
+.logo span {
+  color: #bfe1e7;
 }
 
-.footer {
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: #bfe1e7;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social .social-icons {
   display: flex;
-  gap: 50px;
+  gap: 10px;
+}
+
+.footer-social .social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: 0.3s;
+}
+
+.footer-social .social-icons img:hover {
+  opacity: 0.7;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #bfe1e7;
+  font-size: 14px;
+}
+
+.footer-bottom strong {
+  color: #bfe1e7;
 }
